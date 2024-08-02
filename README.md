@@ -25,7 +25,7 @@ $ npm install -s node-onvif
 
 ## Sample Application
 
-This package includes a sample application "[ONVIF Network Camera Manager](https://github.com/futomi/node-onvif/tree/master/sample)". You can try this module with your PTZ ONVIF network camera easily.
+This package includes a sample application "[ONVIF Network Camera Manager](https://github.com/shtw/node-onvif/tree/master/sample)". You can try this module with your PTZ ONVIF network camera easily.
 
 ![ONVIF Network Camera Manager](sample/imgs/manager_controller.jpg)
 
@@ -1183,7 +1183,7 @@ Property       |               | Type    | Required |Description
 ```JavaScript
 let params = {
   'FromDHCP'    : false,
-  'SearchDomain': ['futomi.gr.jp', 'hatano.gr.jp'],
+  'SearchDomain': ['shtw.gr.jp', 'hatano.gr.jp'],
   'DNSManual'   : [
     {'Type': 'IPv4', 'IPv4Address': '192.168.10.1'},
     {'Type': 'IPv4', 'IPv4Address': '192.168.10.3'}
@@ -2245,15 +2245,15 @@ This module is based on the [ONVIF specifications](http://www.onvif.org/Document
 * v0.1.7 (2018-08-14)
   * Newly added the `lastResponse` property to the [`OnvifDevice`](#onvifdevice-object) object for debug. This property is used to investigate SOAP parse error.
 * v0.1.6 (2018-08-13)
-  * Fixed the bug of SOAP name space handling. ([Issue #38](https://github.com/futomi/node-onvif/issues/38))
+  * Fixed the bug of SOAP name space handling. ([Issue #38](https://github.com/shtw/node-onvif/issues/38))
 * v0.1.5 (2018-08-13)
-  * Added NAT support. ([Pull Request #34](https://github.com/futomi/node-onvif/pull/34))
+  * Added NAT support. ([Pull Request #34](https://github.com/shtw/node-onvif/pull/34))
 * v0.1.4 (2018-03-25)
-  * Clarified the instruction of the installation in the README.md and Added the `engines` section to the package.json. ([Pull Request #24](https://github.com/futomi/node-onvif/pull/24))
-  * Fixed the bug of the loop of `SearchDomain`. ([Pull Request #23](https://github.com/futomi/node-onvif/pull/23))
+  * Clarified the instruction of the installation in the README.md and Added the `engines` section to the package.json. ([Pull Request #24](https://github.com/shtw/node-onvif/pull/24))
+  * Fixed the bug of the loop of `SearchDomain`. ([Pull Request #23](https://github.com/shtw/node-onvif/pull/23))
 * v0.1.3 (2018-02-11)
-  * Fixed the bug of the device initialization. ([Pull Request #20](https://github.com/futomi/node-onvif/pull/20))
-  * The sample app "[ONVIF Network Camera Manager](https://github.com/futomi/node-onvif/tree/master/sample)" now works well on node v8. ([Issue #6](https://github.com/futomi/node-onvif/issues/6))
+  * Fixed the bug of the device initialization. ([Pull Request #20](https://github.com/shtw/node-onvif/pull/20))
+  * The sample app "[ONVIF Network Camera Manager](https://github.com/shtw/node-onvif/tree/master/sample)" now works well on node v8. ([Issue #6](https://github.com/shtw/node-onvif/issues/6))
 * v0.1.0 (2017-08-30)
   * Rewrote all scripts to be modern coding style such as `let`, `const`, and `Promise`. All of the asynchronous methods now return a `Promise` object.
   * Dramatically improved the discovery processs.
@@ -2269,7 +2269,7 @@ This module is based on the [ONVIF specifications](http://www.onvif.org/Document
 
 The MIT License (MIT)
 
-Copyright (c) 2016 - 2018 Futomi Hatano
+Copyright (c) 2016 - 2018 shtw Hatano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

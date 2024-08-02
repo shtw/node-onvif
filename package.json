@@ -1,7 +1,7 @@
 {
-  "name": "node-onvif",
-  "version": "0.1.7",
-  "description": "The node-onvif is a Node.js module which allows you to communicate with the network camera which supports the ONVIF specifications.",
+  "name": "@shtw/node-onvif",
+  "version": "0.1.0",
+  "description": "The node-onvif is a Node.js module which allows you to communicate with the network camera which supports the ONVIF specifications. (Forked from GuilhermeC18/node-onvif)",
   "engines": {
     "node" : ">=4.4"
   },
@@ -24,12 +24,12 @@
     "Baby Camera",
     "PTZ"
   ],
-  "homepage": "https://github.com/futomi",
-  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "homepage": "https://github.com/shtw",
+  "author": "San Hanityo Wirawan <sanhanityo@gmail.com> (https://github.com/shtw)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/futomi/node-onvif.git"
+    "url": "https://github.com/shtw/node-onvif.git"
   },
   "readmeFilename": "README.md",
   "dependencies": {
